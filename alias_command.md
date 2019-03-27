@@ -8,3 +8,6 @@ find ./ -name "*.pl"|awk '{printf("mv %s dir\n", $ARGV[0])}' | sh
 ```
 ## 查看某端口占用的程序 
 lsof -i：port 
+
+## linux下批量修改文件及文件夹所有者及权限
+chmod -R 700 /opt/oracle/
